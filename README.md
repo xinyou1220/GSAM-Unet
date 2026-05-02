@@ -89,7 +89,7 @@ python evaluate_v2.py --data <ARCADE_ROOT> \
 
 ---
 
-## 實驗設定摘要（來自 `log.txt`）
+## 實驗設定摘要
 
 | 設定 | 值 |
 |------|-----|
@@ -113,7 +113,7 @@ SAM3 載入：`Loaded 442, missing 0, unexpected 22`。
 
 ---
 
-## 訓練結果（`log.txt`）
+## 訓練結果
 
 - **總訓練時間**：約 **19 小時 9 分**（500 epoch，約 137–223 s/epoch 區間）。  
 - **最佳驗證 Dice**：**0.8280**（`best_model.pth` 存於 `checkpoints_v2/`）。  
@@ -122,7 +122,7 @@ SAM3 載入：`Loaded 442, missing 0, unexpected 22`。
 
 ---
 
-## 測試集與閾值掃描（`log.txt`）
+## 測試集與閾值掃描
 
 評估使用 **300** 張測試樣本。後處理預設：`min_size=50`，並以驗證集掃描得到的高閾值做推論（日誌中 **high=0.65, low=None**）。
 
