@@ -1,4 +1,4 @@
-# GSAM UNet — 冠狀血管語意分割（ARCADE）
+# GATSUN — 冠狀血管語意分割（ARCADE）
 
 本專案在靜態 X 光血管影像上，結合 **SAM3 視覺骨幹**、**UNet 解碼器**、**語意提示（Semantic Prompt）**、**稀疏圖注意力（SparseGAT）** 與 **Re-ID（InfoNCE）**，並支援 **貝茲曲線偽影增強** 與可選的 **Mean Teacher 半監督**（需無標籤資料路徑）。
 
